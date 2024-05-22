@@ -1,6 +1,6 @@
 #! /bin/bash
 
-read -p "Enter Partition Name (E.G. sdb): " parName
-read -p "Enter Partition Noumber (E.G. 1): " parNum
+read -p "Enter Partition Name: " parName
+read -p "Enter Partition Noumber: " parNum
 
 $parName $parNum
